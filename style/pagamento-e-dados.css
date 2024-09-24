@@ -1,0 +1,24 @@
+html {
+    background-color: rgb(250, 219, 184);
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(137, 85, 57);
+}
+
+header img {
+    height: 15%;
+    width: 15%;
+}
+
+div {
+
+}
+
+footer {
+    background-color: rgb(137, 85, 57);
+}
