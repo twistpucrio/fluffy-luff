@@ -1,0 +1,60 @@
+html{
+    background-image: url('/img/fundo-home.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav a{
+    width: 10rem;
+    height: 2rem;
+    color: #7A543F;
+    background-color: transparent;
+    border: 0.2rem #7A543F solid ;
+    border-radius: 0.5rem;
+    padding: 0.5%;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.329);
+    
+}
+
+nav{
+    padding: 0.7rem;
+}
+
+#sobreNos{
+    font-size: larger;
+}
+
+#explorar{
+    position: relative;
+    top: 3rem;
+    font-size: xx-large;
+}
+
+#navExplorar{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    
+}
+
+#logo{
+    display: flex;
+    width: 15%;
+    position: relative;
+    left: 42.5%;
+}
+
+h1{
+    text-align: center;
+    color: #7A543F;
+    font-size: xxx-large;
+}
+
+h2{
+    text-align: center;
+    color: #7A543F;
+    font-size: xx-large;
+}
+
