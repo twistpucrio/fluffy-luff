@@ -1,13 +1,46 @@
 html {
     background-color: rgb(250, 219, 184);
+
 }
 
 body {
     margin: 0;
+    
 }
 
 header {
     background-color: rgb(137, 85, 57);
+}
+
+#logo{
+    display: flex;
+    width: 10%;
+    position: relative;
+    left: 5%;
+}
+
+nav a{
+    width: 10rem;
+    height: 2rem;
+    color: #F5D1A6;
+    background-color: transparent;
+    border: 0.1rem #F5D1A6 solid ;
+    border-radius: 10%;
+    padding: 0.5%;
+    text-decoration: none;
+}
+nav{
+    padding: 1%;
+}
+
+#menu{
+  
+   justify-content: center;
+   gap: 2%;
+   position: relative;
+   top: -5rem;
+   right: -35%;
+   
 }
 
 header img {
@@ -21,4 +54,11 @@ div {
 
 footer {
     background-color: rgb(137, 85, 57);
+    text-align: center;
+    font-size: large;
+    padding: 0.3%;
+    color: #F5D1A6;
+}
+#versao{
+    text-align: left;
 }
