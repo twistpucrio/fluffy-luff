@@ -1,4 +1,10 @@
+@font-face { /* FONTE EXTERNA */
+    font-family:'jomhuria';
+    src: url(../fonts/Jomhuria-Regular.ttf);
+}
+
 html {
+    font-family: 'jomhuria';
     background-color: rgb(250, 219, 184);
 
 }
