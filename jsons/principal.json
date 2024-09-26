@@ -1,0 +1,71 @@
+[
+   {
+        "nome": "mico",
+        "preço": 25,
+        "categoria": "terrestre",
+        "avaliacoes": [
+            {
+                "nome": "Julia",
+                "nota": 5,
+                "comentário": "muito fofinho!"
+            },
+            {
+                
+                "nome": "Danielle",
+                "nota": 4,
+                "comentário": "Os fios não são de seda..."
+            }
+        ]
+   },
+   {
+        "nome": "lobo guará",
+        "preço": 200,
+        "categoria": "terrestre",
+        "avaliacoes": [
+            {
+                "nome": "Dulia",
+                "nota": 5,
+                "comentário": "muito lindo!"
+            },
+            {
+                "nome": "Janielle",
+                "nota": 5,
+                "comentário": "Muito chique!"
+            }
+        ]
+    },
+    {
+        "nome": "pinguim",
+        "preço": 100,
+        "categoria": "aquático",
+        "avaliacoes": [
+            {
+                "nome": "Vitória",
+                "nota": 5,
+                "comentário": ""
+            },
+            {
+                "nome": "Mariana",
+                "nota": 5,
+                "comentário": ""
+            }
+        ]
+    },
+    {
+        "nome": "arara",
+        "preço": 45,
+        "categoria": "voador",
+        "avaliacoes": [
+            {
+                "nome": "Vivi",
+                "nota": 3,
+                "comentário": ""
+            },
+            {
+                "nome": "Juia",
+                "nota": 5,
+                "comentário": "Amei, parece o blue!"
+            }
+        ]
+    }
+]
