@@ -16,6 +16,7 @@ body {
 
 header {
     background-color: rgb(137, 85, 57);
+    
 }
 
 #logo{
@@ -23,6 +24,7 @@ header {
     width: 10%;
     position: relative;
     left: 5%;
+    top: 30px;
 }
 
 nav a{
@@ -30,41 +32,103 @@ nav a{
     height: 2rem;
     color: #F5D1A6;
     background-color: transparent;
-    border: 0.1rem #F5D1A6 solid ;
+    border: 0.2rem #F5D1A6 solid ;
     border-radius: 10%;
     padding: 0.5%;
     text-decoration: none;
 }
+
 nav{
     padding: 1%;
 }
 
 #menu{
-  
-   justify-content: center;
-   gap: 2%;
-   position: relative;
-   top: -5rem;
-   right: -35%;
-   
-}
+    font-size: 30pt;
+    margin-top: 0%;
+    gap: 2%;
+    position: relative;
+    top: -6rem;
+    right: -20%;
+        
+ }
 
-header img {
+ header img {
     height: 15%;
     width: 15%;
 }
 
-div {
 
-}
 
 footer {
     background-color: rgb(137, 85, 57);
     text-align: center;
     font-size: large;
-    padding: 0.3%;
+    padding: 0.1%;
     color: #F5D1A6;
 }
 #versao{
     text-align: left;
+}
+
+
+/* //////////// PAGAMENTO CSS///////////// */
+
+#h1{
+    text-align: center;
+    color: #895536;
+    font-size:400%;
+}
+
+.payment-button {
+    background-color: #895536;
+    border: none;
+    padding: 2px;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin:7px;
+    width: auto;
+    color: #FADBB8;
+    width: 800px;
+    font-size: 250%;
+    position: relative;
+    left: 28%;
+    top: -25px;
+}
+
+.payment-button img {
+    margin-right: 50px;
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    left: 10%;
+}
+
+.finalize-button {
+    width: 20%;
+    color: #895536;
+    background-color: transparent;
+    border: 0.5rem #895536 solid ;
+    border-radius: 10%;
+    padding: 1%;
+    text-decoration: none;
+    font-size: 150%;
+    position: relative;
+    cursor: pointer;
+  
+}
+#finalizar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.payment-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
