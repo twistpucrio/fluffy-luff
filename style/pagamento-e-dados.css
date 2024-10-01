@@ -26,45 +26,65 @@ header {
 }
 
 nav a{
+    
+    font-size: 2rem;
     width: 10rem;
-    height: 2rem;
+    height: 2.5rem;
     color: #F5D1A6;
     background-color: transparent;
-    border: 0.1rem #F5D1A6 solid ;
-    border-radius: 10%;
-    padding: 0.5%;
+    border: 0.15rem #F5D1A6 solid ;
+    border-radius: 5px;
     text-decoration: none;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
 }
 nav{
     padding: 1%;
+    
 }
 
 #menu{
-  
+    
+   display: flex;
    justify-content: center;
-   gap: 2%;
+   gap:1rem;
    position: relative;
    top: -5rem;
-   right: -35%;
-   
+   text-align: center;
 }
+
+input::placeholder {
+    color: #f5d2a6ac; 
+    opacity: 1; 
+    
+}
+input{
+    box-sizing: border-box;
+    font-family: 'jomhuria';
+    font-size: xx-large;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid #F5D1A6; 
+    border-radius: 5px; 
+}
+
 
 header img {
     height: 15%;
     width: 15%;
 }
 
-div {
-
-}
-
 
 footer {
     background-color: rgb(137, 85, 57);
     text-align: center;
-    font-size: large;
+    font-size: x-large;
     padding: 0.3%;
     color: #F5D1A6;
+    margin-top: 7rem;
 }
 #versao{
     text-align: left;
