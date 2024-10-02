@@ -1,0 +1,1 @@
+//CRUD do json (adição de produtos no carrinho e no favoritos, remoção de produtos no carrinho e no favoritos)
