@@ -89,3 +89,71 @@ footer {
 #versao{
     text-align: left;
 }
+/*==============Página Pagamento===============*/
+
+#h1{
+    text-align: center;
+    color: #895536;
+    font-size:400%;
+}
+
+.payment-button {
+    background-color: #895536;
+    border: none;
+    padding: 2px;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin:7px;
+    width: auto;
+    color: #FADBB8;
+    width: 800px;
+    font-size: 250%;
+    position: relative;
+    left: 28%;
+    top: -25px;
+}
+
+.payment-button img {
+    margin-right: 50px;
+    max-width: 100px; 
+    max-height: 70px; 
+    position: relative; 
+    left: 0; 
+}
+
+
+.finalize-button {
+    width: 20%;
+    color: #895536;
+    background-color: transparent;
+    border: 0.3rem #895536 solid ;
+    border-radius: 5px;
+    padding: 0.5%;
+    text-decoration: none;
+    font-size: 150%;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: 'jomhuria';
+    font-size: xxx-large;
+}
+#finalizar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.payment-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/*FAZER CSS SO PRA ELE*/
+
+/*=============================================*/
