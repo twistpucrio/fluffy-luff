@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fluffy Luff</title>
-    <link rel="shortcut icon" href="../img/fluffy-luff.png" type="image/x-icon">
-    <link rel="stylesheet" href="../style/estilo-base.css">
-
+    <link rel="shortcut icon" href="/img/fluffy-luff.png" type="image/x-icon">
+    <link rel="stylesheet" href="/style/carrinho.css">
 </head>
 <body>
     <div id="conteudo">
@@ -20,11 +19,17 @@
                 <a href="/htmls/carrinho-de-compras.html">Carrinho</a>
             </nav>
         </header>
+        <br/><br/><br/><br/><br/><br/>
         <section id ="main">
-            <h1>
-            </h1>
-            <div>
-
+            <div class="produto">
+                <img class="imgProduto" src="#" alt="Imagem do produto" >
+                <p class="nomeProduto" >*Nome Produto*</p>
+                <div class="quantidade">
+                    <button class="quantidadeBtn" onclick="mudarQuantidade(-1)">-</button>
+                    <input type="number" id="quantidadeInput" value="1" min="1">
+                    <button class="quantidadeBtn" onclick="mudarQuantidade(1)">+</button>
+                  </div>
+                  <p class="preco"> R$: xx,xx </p>
             </div>
         </section>
         <footer id="footer">
@@ -38,8 +43,8 @@
             Versão do site: 1.0
             </section>
             </p>
-            <a href="https://github.com/twistpucrio/fluffy-luff" target="_blank">
-                <img  id="github" src="../img/github.png" alt="logo do github.">
+            <a id="github" href="https://github.com/twistpucrio/fluffy-luff" target="_blank">
+                <img src="../img/github.png" alt="logo do github." width="30" height="30">
             </a>        
         </footer>
     </div>
