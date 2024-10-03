@@ -49,11 +49,12 @@ nav{
 #menu{
     
    display: flex;
-   justify-content: center;
+   justify-content:left;
    gap:1rem;
    position: relative;
-   top: -5rem;
+   top: -8rem;
    text-align: center;
+   left:30dvh;
 }
 
 input::placeholder {
