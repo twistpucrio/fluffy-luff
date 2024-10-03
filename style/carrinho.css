@@ -1,0 +1,120 @@
+@font-face { /* FONTE EXTERNA */
+    font-family:'jomhuria';
+    src: url(../fonts/Jomhuria-Regular.ttf);
+}
+
+html {
+    font-family: 'jomhuria';
+    background-color: rgb(250, 219, 184);
+
+}
+
+body {
+    margin: 0;
+    
+}
+
+header {
+    background-color: rgb(137, 85, 57);
+}
+
+#logo{
+    display: flex;
+    width: 10%;
+    position: relative;
+    left: 5%;
+}
+
+nav a{
+    
+    font-size: 2rem;
+    width: 10rem;
+    height: 2.5rem;
+    color: #F5D1A6;
+    background-color: transparent;
+    border: 0.15rem #F5D1A6 solid ;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+nav{
+    padding: 1%;
+    
+}
+
+#menu{
+    
+   display: flex;
+   justify-content: center;
+   gap:1rem;
+   position: relative;
+   top: -5rem;
+   text-align: center;
+}
+
+input::placeholder {
+    color: #f5d2a6ac; 
+    opacity: 1; 
+    
+}
+input{
+    box-sizing: border-box;
+    font-family: 'jomhuria';
+    font-size: xx-large;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid #F5D1A6; 
+    border-radius: 5px; 
+}
+
+
+header img {
+    height: 15%;
+    width: 15%;
+}
+
+
+footer {
+    background-color: rgb(137, 85, 57);
+    text-align: center;
+    font-size: x-large;
+    padding: 0.3%;
+    color: #F5D1A6;
+    margin-top: 7rem;
+}
+#versao{
+    text-align: left;
+}
+
+/*=======================================
+Botões carrinho:*/
+
+.nomeProduto{
+    font-size: xx-large;
+    color: #F5D1A6;
+}
+.preco{
+    font-size: xx-large;
+    color: #F5D1A6;
+}
+
+#quantidadeInput{
+    width: 3rem;
+    text-align: center;
+    color: #F5D1A6;
+}
+
+.produto{
+    background-color:rgb(137, 85, 57) ;
+    padding: 2rem;
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+}
+
+
+/*=======================================*/
