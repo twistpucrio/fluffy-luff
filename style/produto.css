@@ -1,0 +1,36 @@
+#main{
+    width: 100%;
+    height: 90%;
+}
+
+figure{
+    width: 250px;
+    background-color: aqua;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 20px 10px 10px 10px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+img{
+
+    border-radius: 5%;
+}
+
+p{
+    font-size: 40px;
+}
+
+.au {
+    background-color: rosybrown;
+    border-radius: 5%;
+    flex-direction: column;
+    margin: 0 auto;    
+}
