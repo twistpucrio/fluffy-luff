@@ -2,6 +2,456 @@
     "produtos":
     [
         {
+            "nome": "Água Viva",
+            "preço": 25.00,
+            "descricao": "",
+            "categoria": "aquático",
+            "avaliacoes": [
+                {
+                    "nome": "Judy",
+                    "nota": 4.5,
+                    "comentário": "majestosa demais!"
+                },
+                {
+                    "nome": "Hanna",
+                    "nota": 4,
+                    "comentário": "Gostei muito! Bem macio. :)"
+                }
+            ],
+           "material": "Algodão",
+           "estoque": 45,
+           "caminho": "../img/agua-viva.webp",
+           "imagem": ""
+        },
+        {
+            "nome": "Arara",
+            "preço": 55.00,
+            "descricao": "",
+            "categoria": "voador",
+            "avaliacoes": [
+                {
+                    "nome": "Bruno",
+                    "nota": 5,
+                    "comentário": "Muito bela!"
+                },
+                {
+                    "nome": "Tiago",
+                    "nota": 4.5,
+                    "comentário": "Parece muito o Blue."
+                }
+            ],
+           "material": "Algodão",
+           "estoque": 11,
+           "caminho": "../img/arara.avif",
+           "imagem": ""
+        },
+        {
+            "nome": "Baleia de crochê",
+            "preço": 15.00,
+            "descricao": "",
+            "categoria": "aquático",
+            "avaliacoes": [
+                {
+                    "nome": "Breno",
+                    "nota": 4,
+                    "comentário": "Muito fofinho!"
+                },
+                {
+                    "nome": "Eduardo",
+                    "nota": 5,
+                    "comentário": "Muito bem feita!"
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 22,
+           "caminho": "../img/baleia-croche.jpg",
+           "imagem": ""
+        },
+        {
+            "nome": "Baleia",
+            "preço": 60.00,
+            "descricao": "",
+            "categoria": "aquático",
+            "avaliacoes": [
+                {
+                    "nome": "Fluffy",
+                    "nota": 5,
+                    "comentário": "Baleia :)"
+                },
+                {
+                    "nome": "Luffy",
+                    "nota": 5,
+                    "comentário": "Jubarte"
+                }
+            ],
+           "material": "Algodão",
+           "estoque": 100,
+           "caminho": "../img/baleia.webp",
+           "imagem": ""
+        },
+        {
+            "nome": "Banguela",
+            "preço": 300.00,
+            "descricao": "",
+            "categoria": "outros",
+            "avaliacoes": [
+                {
+                    "nome": "Soluço",
+                    "nota": 5,
+                    "comentário": "O meu dragãozinho!!"
+                },
+                {
+                    "nome": "Astrid",
+                    "nota": 4,
+                    "comentário": "Parece o de verdade."
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 1,
+           "caminho": "../img/banguela.jpeg",
+           "imagem": ""
+        },
+        {
+            "nome": "Beluga",
+            "preço": 10.00,
+            "descricao": "",
+            "categoria": "aquático",
+            "avaliacoes": [
+                {
+                    "nome": "Biólogo",
+                    "nota": 4.5,
+                    "comentário": "Muito realista!"
+                },
+                {
+                    "nome": "Golfinho",
+                    "nota": 4,
+                    "comentário": "Amo esse carinhas."
+                }
+            ],
+           "material": "Algodão",
+           "estoque": 50,
+           "caminho": "../img/beluga.webp",
+           "imagem": ""
+        },
+        {
+            "nome": "Bem te vi",
+            "preço": 500.00,
+            "descricao": "",
+            "categoria": "voador",
+            "avaliacoes": [
+                {
+                    "nome": "Julia",
+                    "nota": 5,
+                    "comentário": "Muito minha infância!"
+                }
+            ],
+           "material": "Lã",
+           "estoque": 10,
+           "caminho": "../img/bem-te-vi.webp",
+           "imagem": ""
+        },
+        {
+            "nome": "Braquiossauro",
+            "preço": 110.00,
+            "descricao": "",
+            "categoria": "outros",
+            "avaliacoes": [
+                {
+                    "nome": "Ross",
+                    "nota": 5,
+                    "comentário": "Posso confirmar que é parecido com o que a paleontologia acha que braquiossauros foram."
+                }
+            ],
+           "material": "Lã",
+           "estoque": 14,
+           "caminho": "../img/braquiossauro.webp",
+           "imagem": ""
+        },
+        {
+            "nome": "Capivara",
+            "preço": 40.00,
+            "descricao": "",
+            "categoria": "terrestre",
+            "avaliacoes": [
+                {
+                    "nome": "Vivi",
+                    "nota": 5,
+                    "comentário": "Minha foto de perfil no github!"
+                },
+                {
+                    "nome": "Jacaré",
+                    "nota": 3.5,
+                    "comentário": "Olha, o sorrisinho bobo dele!"
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 300,
+           "caminho": "../img/capivara.webp",
+           "imagem": ""
+        },
+        {
+            "nome": "Cavalo de Crochê",
+            "preço": 60.00,
+            "descricao": "",
+            "categoria": "terrestre",
+            "avaliacoes": [
+                {
+                    "nome": "Spirit",
+                    "nota": 5,
+                    "comentário": "Parece comigo!"
+                },
+                {
+                    "nome": "Steve",
+                    "nota": 4,
+                    "comentário": "Parece um cavalo daqui do minecraft."
+                },
+                {
+                    "nome": "Cavalo do Minecraft",
+                    "nota": 4.5,
+                    "comentário": "Sou eu."
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 52,
+           "caminho": "../img/cavalo-croche.jpg",
+           "imagem": ""
+        },
+        {
+            "nome": "Cavalo",
+            "preço": 65.00,
+            "descricao": "",
+            "categoria": "terrestre",
+            "avaliacoes": [
+                {
+                    "nome": "Spirit",
+                    "nota": 4,
+                    "comentário": "Parece comigo de novo!"
+                },
+                {
+                    "nome": "Érica",
+                    "nota": 4.5,
+                    "comentário": "Vacalo."
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 2,
+           "caminho": "../img/cavalo.jpg",
+           "imagem": ""
+        },
+        {
+            "nome": "Cogumelo de Crochê",
+            "preço": 30.00,
+            "descricao": "",
+            "categoria": "outros",
+            "avaliacoes": [
+                {
+                    "nome": "Toad",
+                    "nota": 4.5,
+                    "comentário": "Parece comigo!"
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 44,
+           "caminho": "../img/cogumelo-croche.jpeg",
+           "imagem": ""
+        },
+        {
+            "nome": "Cogumelo",
+            "preço": 70.00,
+            "descricao": "",
+            "categoria": "outros",
+            "avaliacoes": [
+                {
+                    "nome": "Aquele Cara",
+                    "nota": 5,
+                    "comentário": "Muito fofinho e macio!"
+                },
+                {
+                    "nome": "Outro cara",
+                    "nota": 4,
+                    "comentário": "Amo a carinha dele."
+                },
+                {
+                    "nome": "Mais um cara",
+                    "nota": 3,
+                    "comentário": "Parece um squishmallow."
+                }
+            ],
+           "material": "Algodão",
+           "estoque": 33,
+           "caminho": "../img/cogumelo.jpg",
+           "imagem": ""
+        },
+        {
+            "nome": "Dragão",
+            "preço": 500.00,
+            "descricao": "",
+            "categoria": "outros",
+            "avaliacoes": [
+                {
+                    "nome": "Foguinho",
+                    "nota": 5,
+                    "comentário": "Parece comigo!"
+                },
+                {
+                    "nome": "Banguela",
+                    "nota": 4,
+                    "comentário": "Dragão."
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 3,
+           "caminho": "../img/dragao.jpg",
+           "imagem": ""
+        },
+        {
+            "nome": "Finn Encaroçado",
+            "preço": 110.00,
+            "descricao": "",
+            "categoria": "outros",
+            "avaliacoes": [
+                {
+                    "nome": "Jake",
+                    "nota": 3,
+                    "comentário": "Ele tava muito chato assim..."
+                },
+                {
+                    "nome": "Princesa Caroço",
+                    "nota": 5,
+                    "comentário": "Amei ele assim. Arrasou!"
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 1,
+           "caminho": "../img/finn-encarocado.avif",
+           "imagem": ""
+        },
+        {
+            "nome": "Gary",
+            "preço": 160.00,
+            "descricao": "",
+            "categoria": "aquático",
+            "avaliacoes": [
+                {
+                    "nome": "Bob Esponja",
+                    "nota": 5,
+                    "comentário": "Meu gary!"
+                },
+                {
+                    "nome": "Gary",
+                    "nota": 4,
+                    "comentário": "Meow!"
+                }
+            ],
+           "material": "Algodão",
+           "estoque": 4,
+           "caminho": "../img/gary.avif",
+           "imagem": ""
+        },
+        {
+            "nome": "Leão",
+            "preço": 70.00,
+            "descricao": "",
+            "categoria": "terrestre",
+            "avaliacoes": [
+                {
+                    "nome": "Simba",
+                    "nota": 5,
+                    "comentário": "Parece o meu pai!"
+                },
+                {
+                    "nome": "Mufasa",
+                    "nota": 5,
+                    "comentário": "Parece meu filho, o simba."
+                },
+                {
+                    "nome": "Zebra",
+                    "nota": 2,
+                    "comentário": "Tenho muito medo desse leão."
+                }
+            ],
+           "material": "Lã",
+           "estoque": 10,
+           "caminho": "../img/leao.webp",
+           "imagem": ""
+        },
+        {
+            "nome": "Lemure",
+            "preço": 190.00,
+            "descricao": "",
+            "categoria": "terrestre",
+            "avaliacoes": [
+                {
+                    "nome": "Rei Julian",
+                    "nota": 5,
+                    "comentário": "Parece comigo! Sou lindo!"
+                },
+                {
+                    "nome": "Mort",
+                    "nota": 5,
+                    "comentário": "Parece o Rei Juliannn!!"
+                },
+                {
+                    "nome": "Maurício",
+                    "nota": 2,
+                    "comentário": "Parece o Rei Julian."
+                }
+            ],
+           "material": "Lã",
+           "estoque": 60,
+           "caminho": "../img/lemure.jpg",
+           "imagem": ""
+        },
+        {
+            "nome": "Linguado",
+            "preço": 210.00,
+            "descricao": "",
+            "categoria": "aquático",
+            "avaliacoes": [
+                {
+                    "nome": "Linguado",
+                    "nota": 5,
+                    "comentário": "Sou eu!"
+                },
+                {
+                    "nome": "Ariel",
+                    "nota": 5,
+                    "comentário": "É o linguado, que lindinho!"
+                },
+                {
+                    "nome": "Sebastião",
+                    "nota": 4.5,
+                    "comentário": "Muito parecido com o linguado. Bem feito, também."
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 65,
+           "caminho": "../img/linguado.webp",
+           "imagem": ""
+        },
+        {
+             "nome": "Lobo guará",
+             "preço": 200.00,
+             "descricao": "Pelúcia de lobo-guará com corpo marrom, pernas e focinho pretos, e orelhas grandes com interior branco. Material: Poliéster.",
+             "categoria": "terrestre",
+             "avaliacoes": [
+                 {
+                     "nome": "Dulia",
+                     "nota": 5,
+                     "comentário": "muito lindo!"
+                 },
+                 {
+                     "nome": "Janielle",
+                     "nota": 5,
+                     "comentário": "Muito chique!"
+                 }
+             ],
+            "material": "Poliéster",
+            "estoque": 5,
+            "caminho": "../img/lobo-guara.png",
+            "imagem": "Um gracioso lobo-guará de pelúcia. Ele tem o corpo coberto por uma pelagem marrom clarinha e macia, enquanto suas pernas e focinho são de um preto contrastante. As orelhas são grandes e fofas, com o interior branco, o que o torna ainda mais adorável. Seus olhos pequenos e amarelos parecem atentos, como se estivesse explorando o ambiente ao seu redor. Ele está sobre uma grama verde, que destaca ainda mais suas cores, parecendo pronto para uma nova aventura!"
+        },
+        {
             "nome": "Mico",
             "preço": 25.00,
             "descricao": "Pelúcia de miquinho cinza claro com olhos grandes e detalhados, com focinho escuro. Material: Algodão.",
@@ -25,48 +475,513 @@
             "imagem": "Uma pelúcia de macaquinho super fofinho, com pelagem cinza clara e olhos grandes e brilhantes que transmitem doçura. Suas sobrancelhas brancas e focinho mais escuro dão um charme extra. Ele está sentado sobre uma pedra, cercado por folhas verdes, e exibe uma etiqueta com \"Bichos do Brasil\" no peito. É o tipo de macaquinho que parece pedir um abraço!"
         },
         {
-             "nome": "Lobo guará",
-             "preço": 200.00,
-             "descricao": "Pelúcia de lobo-guará com corpo marrom, pernas e focinho pretos, e orelhas grandes com interior branco. Material: Poliéster.",
-             "categoria": "terrestre",
-             "avaliacoes": [
-                 {
-                     "nome": "Dulia",
-                     "nota": 5,
-                     "comentário": "muito lindo!"
-                 },
-                 {
-                     "nome": "Janielle",
-                     "nota": 5,
-                     "comentário": "Muito chique!"
-                 }
-             ],
-            "material": "Poliéster",
-            "estoque": 5,
-            "caminho": "../img/lobo-guara.png",
-            "imagem": "Um gracioso lobo-guará de pelúcia. Ele tem o corpo coberto por uma pelagem marrom clarinha e macia, enquanto suas pernas e focinho são de um preto contrastante. As orelhas são grandes e fofas, com o interior branco, o que o torna ainda mais adorável. Seus olhos pequenos e amarelos parecem atentos, como se estivesse explorando o ambiente ao seu redor. Ele está sobre uma grama verde, que destaca ainda mais suas cores, parecendo pronto para uma nova aventura!"
-         },
-         {
-             "nome": "Pinguim",
-             "preço": 100.00,
-             "categoria": "aquático",
-             "avaliacoes": [
-                 {
-                     "nome": "Vitória",
-                     "nota": 4,
-                     "comentário": "Fofo, mas fedido."
-                 },
-                 {
-                     "nome": "Mariana",
-                     "nota": 5,
-                     "comentário": "Minha filhinha amou a pelúcia! Muito macia e de ótima qualidade."
-                 }
-             ],
+            "nome": "Ovelha de Crochê",
+            "preço": 48.00,
+            "descricao": "",
+            "categoria": "terrestre",
+            "avaliacoes": [
+                {
+                    "nome": "Shuan",
+                    "nota": 5,
+                    "comentário": "Parece comigo!"
+                },
+                {
+                    "nome": "Luiza",
+                    "nota": 4,
+                    "comentário": "Oveia."
+                }
+            ],
+           "material": "Lã",
+           "estoque": 75,
+           "caminho": "../img/ovelha-croche.jpg",
+           "imagem": ""
+        },
+        {
+            "nome": "Panda Vermelho",
+            "preço": 450.00,
+            "descricao": "",
+            "categoria": "terrestre",
+            "avaliacoes": [
+                {
+                    "nome": "Mei Lee",
+                    "nota": 5,
+                    "comentário": "Parece minha mãe!"
+                },
+                {
+                    "nome": "Ming Lee",
+                    "nota": 4,
+                    "comentário": "Parece minha filha."
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 7,
+           "caminho": "../img/panda-vermelho.webp",
+           "imagem": ""
+        },
+        {
+            "nome": "Peixe Boi",
+            "preço": 480.00,
+            "descricao": "",
+            "categoria": "aquático",
+            "avaliacoes": [
+                {
+                    "nome": "Peixe",
+                    "nota": 5,
+                    "comentário": "Esses caras são muito gente boa!"
+                },
+                {
+                    "nome": "Boi",
+                    "nota": 3.5,
+                    "comentário": "Nunca vi esse mano na minha vida. Como temos o mesmo nome?"
+                }
+            ],
+           "material": "Algodão",
+           "estoque": 80,
+           "caminho": "../img/peixe-boi.jpg",
+           "imagem": ""
+        },
+        {
+            "nome": "Perry",
+            "preço": 340.00,
+            "descricao": "",
+            "categoria": "aquático",
+            "avaliacoes": [
+                {
+                    "nome": "Phinneas",
+                    "nota": 5,
+                    "comentário": "É o Perry!"
+                },
+                {
+                    "nome": "Dr. Doofenshmirtz",
+                    "nota": 3.5,
+                    "comentário": "Esse carinha me parece familiar..."
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 30,
+           "caminho": "../img/perry.webp",
+           "imagem": ""
+        },
+        {
+            "nome": "Pinguim",
+            "preço": 100.00,
+            "categoria": "aquático",
+            "avaliacoes": [
+                {
+                    "nome": "Vitória",
+                    "nota": 4,
+                    "comentário": "Fofo, mas fedido."
+                },
+                {
+                    "nome": "Mariana",
+                    "nota": 5,
+                    "comentário": "Minha filhinha amou a pelúcia! Muito macia e de ótima qualidade."
+                }
+            ],
             "material": "Algodão",
             "estoque": 21,
             "caminho": "../img/pinguim.jpg",
             "imagem": "Um pinguim de pelúcia incrivelmente fofo! Ele tem o corpo gordinho e macio, com pelagem de um branco suave na barriga e cinza claro nas costas e nas asas. Sua cabecinha preta exibe manchas brancas ao redor dos olhos, que são pequenos e expressivos, transmitindo uma doçura irresistível. O bico preto é curto e delicado, assim como seus pezinhos, também pretos, que dão um charme extra. Ele parece estar pronto para aquecer corações com seu jeitinho adorável e abraçável!"
-         
-         }
+        
+        },
+        {
+            "nome": "Pombo",
+            "preço": 230.00,
+            "descricao": "",
+            "categoria": "voador",
+            "avaliacoes": [
+                {
+                    "nome": "Jéssica",
+                    "nota": 5,
+                    "comentário": "Muito realista. Meus gatos tavam tentando comer..."
+                },
+                {
+                    "nome": "Luisa",
+                    "nota": 4.5,
+                    "comentário": "Bopom."
+                }
+            ],
+           "material": "Algodão",
+           "estoque": 800,
+           "caminho": "../img/pombo.avif",
+           "imagem": ""
+        },
+        {
+            "nome": "Pou",
+            "preço": 180.00,
+            "descricao": "",
+            "categoria": "outros",
+            "avaliacoes": [
+                {
+                    "nome": "Mariana",
+                    "nota": 4,
+                    "comentário": "Pou é muito fofo! Tadinho!"
+                },
+                {
+                    "nome": "Vitória",
+                    "nota": 5,
+                    "comentário": "É a pelúcia do meme!"
+                }
+            ],
+           "material": "Lã",
+           "estoque": 10,
+           "caminho": "../img/pou.avif",
+           "imagem": ""
+        },
+        {
+            "nome": "Simba",
+            "preço": 510.00,
+            "descricao": "",
+            "categoria": "terrestre",
+            "avaliacoes": [
+                {
+                    "nome": "Simba",
+                    "nota": 5,
+                    "comentário": "Esse sou eu!"
+                },
+                {
+                    "nome": "Scar",
+                    "nota": 3,
+                    "comentário": "Hm..."
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 85,
+           "caminho": "../img/simba.webp",
+           "imagem": ""
+        },
+        {
+            "nome": "Snoopy",
+            "preço": 600.00,
+            "descricao": "",
+            "categoria": "outros",
+            "avaliacoes": [
+                {
+                    "nome": "Érica",
+                    "nota": 5,
+                    "comentário": "Muito parecido com o do desenho."
+                }
+            ],
+           "material": "Algodão",
+           "estoque": 9,
+           "caminho": "../img/snoopy.webp",
+           "imagem": ""
+        },
+        {
+            "nome": "Stitch",
+            "preço": 160.00,
+            "descricao": "",
+            "categoria": "outros",
+            "avaliacoes": [
+                {
+                    "nome": "Lilo",
+                    "nota": 5,
+                    "comentário": "O anjinho enviado pra mim!"
+                },
+                {
+                    "nome": "Jumba",
+                    "nota": 3.5,
+                    "comentário": "Muito ruim capturar esse cara, não tente! Mas, viramos amigos no final..."
+                },
+                {
+                    "nome": "Pleakley",
+                    "nota": 4,
+                    "comentário": "Carinha bagunçeiro! Mas, adoro ele agora."
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 85,
+           "caminho": "../img/stitch.webp",
+           "imagem": ""
+        },
+        {
+            "nome": "T-rex",
+            "preço": 185.00,
+            "descricao": "",
+            "categoria": "outros",
+            "avaliacoes": [
+                {
+                    "nome": "Braquiossauro",
+                    "nota": 5,
+                    "comentário": "Rowr!"
+                },
+                {
+                    "nome": "Ross",
+                    "nota": 3.5,
+                    "comentário": "Não muito parecido com o T-rex real de acordo com minha opinião e a da paleontologia. Mas, fofo."
+                }
+            ],
+           "material": "Algodão",
+           "estoque": 12,
+           "caminho": "../img/t-rex.webp",
+           "imagem": ""
+        },
+        {
+            "nome": "Tamanduá de Crochê",
+            "preço": 140.00,
+            "descricao": "",
+            "categoria": "terrestre",
+            "avaliacoes": [
+                {
+                    "nome": "Formiga",
+                    "nota": 1,
+                    "comentário": "Terrível! AAAA!"
+                },
+                {
+                    "nome": "Biólogo",
+                    "nota": 5,
+                    "comentário": "Muito muito fofo! Dei de presente para um colega de trabalho especialista em tamanduás."
+                },
+                {
+                    "nome": "Fernanda",
+                    "nota": 5,
+                    "comentário": "Muito lindinho!"
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 85,
+           "caminho": "../img/tamandua-croche.webp",
+           "imagem": ""
+        },
+        {
+            "nome": "Tamanduá",
+            "preço": 210.00,
+            "descricao": "",
+            "categoria": "terrestre",
+            "avaliacoes": [
+                {
+                    "nome": "Cabeleleiro",
+                    "nota": 5,
+                    "comentário": "Ele tem o cabelo mais majestoso que eu já vi!"
+                },
+                {
+                    "nome": "Cupim",
+                    "nota": 1.5,
+                    "comentário": "AA!"
+                },
+                {
+                    "nome": "Biólogo",
+                    "nota": 5,
+                    "comentário": "Muito bem feito e realista."
+                }
+            ],
+           "material": "Algodão",
+           "estoque": 34,
+           "caminho": "../img/tamandua.jpg",
+           "imagem": ""
+        },
+        {
+            "nome": "Tubarão Martelo",
+            "preço": 310.00,
+            "descricao": "",
+            "categoria": "aquático",
+            "avaliacoes": [
+                {
+                    "nome": "Golfinho",
+                    "nota": 5,
+                    "comentário": "Racho toda vez que olha nacar de um desses caras."
+                },
+                {
+                    "nome": "Peixe",
+                    "nota": 5,
+                    "comentário": "Eles parecem assustadores, mas são de boa até."
+                },
+                {
+                    "nome": "Pedra",
+                    "nota": 5,
+                    "comentário": "..."
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 4,
+           "caminho": "../img/tubarao-martelo.webp",
+           "imagem": ""
+        },
+        {
+            "nome": "Tubarão",
+            "preço": 78.00,
+            "descricao": "",
+            "categoria": "aquático",
+            "avaliacoes": [
+                {
+                    "nome": "Isabel",
+                    "nota": 5,
+                    "comentário": "Muito fofinho!"
+                },
+                {
+                    "nome": "Tubarão Martelo",
+                    "nota": 4,
+                    "comentário": "Meu primo, adoro ele!"
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 40,
+           "caminho": "../img/tubarao.jpg",
+           "imagem": ""
+        },
+        {
+            "nome": "Unicórnio de Crochê",
+            "preço": 146.00,
+            "descricao": "",
+            "categoria": "outros",
+            "avaliacoes": [
+                {
+                    "nome": "Fada",
+                    "nota": 4,
+                    "comentário": "Mágico!"
+                },
+                {
+                    "nome": "Elfo",
+                    "nota": 4,
+                    "comentário": "Parece de verdade!"
+                },
+                {
+                    "nome": "Sereia",
+                    "nota": 4,
+                    "comentário": "Meu sonho era andar em um desses."
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 1,
+           "caminho": "../img/unicornio.jpg",
+           "imagem": ""
+        },
+        {
+            "nome": "Ursinho de Crochê",
+            "preço": 130.00,
+            "descricao": "",
+            "categoria": "terrestre",
+            "avaliacoes": [
+                {
+                    "nome": "Maria Júlia",
+                    "nota": 5,
+                    "comentário": "Que pelúcia fofinha!"
+                },
+                {
+                    "nome": "Noemi",
+                    "nota": 4.5,
+                    "comentário": "Amei o cachecol dele!"
+                }
+            ],
+           "material": "Algodão",
+           "estoque": 34,
+           "caminho": "../img/ursinho-croche.jpg",
+           "imagem": ""
+        },
+        {
+            "nome": "Ursinho",
+            "preço": 10.00,
+            "descricao": "",
+            "categoria": "terrestre",
+            "avaliacoes": [
+                {
+                    "nome": "Ana Lúcia",
+                    "nota": 5,
+                    "comentário": "O clássico Ursinho de Pelúcia!"
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 50,
+           "caminho": "../img/ursinho.webp",
+           "imagem": ""
+        },
+        {
+            "nome": "Urso Panda",
+            "preço": 111.00,
+            "descricao": "",
+            "categoria": "terrestre",
+            "avaliacoes": [
+                {
+                    "nome": "Pardo",
+                    "nota": 5,
+                    "comentário": "Me lembra o meu irmão!"
+                },
+                {
+                    "nome": "Polar",
+                    "nota": 5,
+                    "comentário": "..."
+                }
+            ],
+           "material": "Lã",
+           "estoque": 1,
+           "caminho": "../img/urso-panda.jpg",
+           "imagem": ""
+        },
+        {
+            "nome": "Urso Pardo",
+            "preço": 111.00,
+            "descricao": "",
+            "categoria": "terrestre",
+            "avaliacoes": [
+                {
+                    "nome": "Panda",
+                    "nota": 5,
+                    "comentário": "É o Pardo!"
+                },
+                {
+                    "nome": "Polar",
+                    "nota": 5,
+                    "comentário": "..."
+                }
+            ],
+           "material": "Lã",
+           "estoque": 1,
+           "caminho": "../img/urso-pardo.avif",
+           "imagem": ""
+        },
+        {
+            "nome": "Urso Polar",
+            "preço": 111.00,
+            "descricao": "",
+            "categoria": "terrestre",
+            "avaliacoes": [
+                {
+                    "nome": "Panda",
+                    "nota": 5,
+                    "comentário": "É o Polar!"
+                },
+                {
+                    "nome": "Pardo",
+                    "nota": 5,
+                    "comentário": "Igualzinho ao Polar!"
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 1,
+           "caminho": "../img/urso-polar.jpg",
+           "imagem": ""
+        },
+        {
+            "nome": "Vaca de Crochê",
+            "preço": 65.00,
+            "descricao": "",
+            "categoria": "terrestre",
+            "avaliacoes": [
+                {
+                    "nome": "Julia",
+                    "nota": 4.5,
+                    "comentário": "Queria muito saber fazer crochê assim. :("
+                },
+                {
+                    "nome": "Vitória",
+                    "nota": 5,
+                    "comentário": "Amei que ela é roxa!"
+                },
+                {
+                    "nome": "Mariana",
+                    "nota": 4,
+                    "comentário": "Muito fofinha! :)"
+                },
+                {
+                    "nome": "Danielle",
+                    "nota": 4,
+                    "comentário": "Linda!"
+                }
+            ],
+           "material": "Poliéster",
+           "estoque": 200,
+           "caminho": "../img/vaca-croche.jpeg",
+           "imagem": ""
+        }
     ]
 }
