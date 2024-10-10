@@ -9,6 +9,7 @@ function criaArrayProdutos() {
         .then(Produtos => {
             return Produtos.produtos; 
         })
+
 }
 
 async function buscaPorId(id) {

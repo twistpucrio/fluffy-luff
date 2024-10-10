@@ -5,6 +5,7 @@ async function criaElemento() {
         console.log(array);
         for (let i = 0; i < array.length; i++) {
             // Criando uma nova div para cada produto
+
             mein.innerHTML += `<a href="./produto.html?id=${i}">
             <div id="produto-${i}" class="produto">
                 <img src="${array[i].caminho}" alt="${array[i].nome}">
