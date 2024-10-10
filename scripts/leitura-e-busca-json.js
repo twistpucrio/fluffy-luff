@@ -4,12 +4,16 @@
 /*Todos os Filtros da Página de Resultado.*/
 
 function criaArrayProdutos() {
-    return fetch("../jsons/principal.json")
+    return fetch("../jsons/produtos.json")
         .then(response => response.json())
         .then(Produtos => {
             return Produtos.produtos; 
         })
-        
+}
+
+async function buscaPorId(id) {
+    const produtos = await criaArrayProdutos();
+    return produtos[id];
 }
 
 function buscaPorNome(array) {
