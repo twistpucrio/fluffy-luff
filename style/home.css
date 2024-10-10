@@ -108,12 +108,17 @@ legend{
 }
 
 #projeto{
-    color: #f0ca9d;
+    color:#56331f;
     
 }
 
 p{
+    font-size: xx-large;
+    color:#56331f;
+    background-color: #f0cb9d39;
+    width: 70rem;
     text-align: center;
-    font-size: larger;
-    color: #f0ca9d;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
