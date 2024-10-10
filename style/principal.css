@@ -1,3 +1,26 @@
+body {
+    display: inline;
+}
+
 .produto{
-    background-color: aqua;
+    background-color: rgb(137, 85, 57);
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 5%;
+    align-items: center;
+}
+
+img {
+    margin: 0 auto;
+    width: auto;
+    height: 65%;
+}
+
+p {
+    color: #F5D1A6;
+}
+a{
+    text-decoration: none;
 }
