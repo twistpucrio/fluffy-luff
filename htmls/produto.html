@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluffy Luff</title>
+    <link rel="shortcut icon" href="/img/fluffy-luff.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/pagamento-e-dados.css">
+    <link rel="stylesheet" href="../style/produto.css">
+    
+    <script src="../scripts/leitura-e-busca-json.js"></script>
+    <script src="../scripts/produto.js"></script>
+</head>
+<body>
+    <div id="conteudo">
+        <header id="header">
+            <img id="logo" src="/img/fluffy-luff.png" alt="logo fluffy luffy.">
+            <nav id="menu">
+            <a href="/htmls/index.html">Voltar</a>
+                <a href="#">Categoria</a>
+                    <input type="text" name="texto" id="texto" placeholder="Pesquisar em Fluffy Luff"></input>
+                <a href="#">Favoritos</a>
+                <a href="/htmls/carrinho-de-compras.html">Carrinho</a>
+            </nav>
+        </header>
+        <section id ="main">
+           <div id="imagem-botoes">
+                <div id="img-produto">
+                    
+                </div>
+                <div id="botoes">
+                    <button class="btn" id="add-favoritos">Adicionar aos favoritos</button>
+                    <button class="btn" id="add-carrinho">Adicionar no carrinho</button>
+                </div>
+           </div>
+           <div id="dados-produto">
+                <h3 id="nome-produto" >
+                    *Nome do Produto*
+                </h3>
+                <div class="dados-produto" id="preco-produto">
+                    <h5>Preço: </h5>
+                </div>
+                <div class="dados-produto" id="descricao-produto">
+                    <h5>Descrição: </h5>
+                </div>
+                <div class="dados-produto" id="avaliacao-produto">
+                    <h5>Avaliação: </h5>
+                </div>
+                <div class="dados-produto" id="comentarios-produto">
+                    <h5>Comentários: </h5>
+                </div>
+           </div>
+        </section>
+        <footer id="footer">
+            <p>
+            <section id="creditos">
+            Desenvolvido por: Danielle Guimarães, Julia Simão, Mariana Ribeiro e Vitória Carteri.<br/>
+            Projeto TWIST-2024
+            </section>
+            <section id="versao">
+            ©Fluffy Luff<br/>
+            Versão do site: 1.0
+            </section>
+            </p>
+            <a id="github" href="https://github.com/twistpucrio/fluffy-luff" target="_blank">
+                <img src="../img/github.png" alt="logo do github." width="30" height="30">
+            </a>        
+        </footer>
+    </div>
+</body>
+</html>
