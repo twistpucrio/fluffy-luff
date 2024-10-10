@@ -1,36 +1,43 @@
 #main{
     width: 100%;
-    height: 90%;
+    height: 100%;
+    display: flex;
+}
+#imagem-botoes{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4.5rem 3.6rem;
+    gap: 3rem;
 }
 
-figure{
-    width: 250px;
-    background-color: aqua;
-    border-radius: 5%;
+#img-produto{
+    width: 65%;
+    height: 35rem;
+    border-radius: 5% ;
+    background-color: rgb(137, 85, 57);
+}
+
+#botoes{
+    width: 100%;
+    height: 30%;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
-    margin: 0;
-    padding: 20px 10px 10px 10px;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
+    gap:2rem;
+    padding: 1rem;
 }
 
-img{
-
+.btn{
+    width: 50%;
+    padding: 0.3rem 0.01rem 0.01rem 0.02rem;
+    color:rgb(137, 85, 57) ;
+    text-align: center;
+    background-color: #F5D1A6;
+    border: 5px rgb(137, 85, 57) solid;
     border-radius: 5%;
-}
-
-p{
-    font-size: 40px;
-}
-
-.au {
-    background-color: rosybrown;
-    border-radius: 5%;
-    flex-direction: column;
-    margin: 0 auto;    
+    font-size: 3.2rem;
+    text-wrap: nowrap;
+    font-family: 'jomhuria';
 }
