@@ -21,7 +21,7 @@ function salvarJSON(caminho, data) {
 }
 
 //função para adicionar produto a uma lista (exemplo: carrinho, produtos e favoritos).
-function adicionar_lista(produto) {
+function adicionar_elemento(produto) {
     const produtos = carregarJSON('produtos.json'); //carrega produtos
     let carrinho = carregarJSON('carrinho.json');   //carrega o carrinho
 
