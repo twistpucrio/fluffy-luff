@@ -182,6 +182,11 @@
                     "nome": "Jacaré",
                     "nota": 3.5,
                     "comentário": "Olha, o sorrisinho bobo dele!"
+                },
+                {
+                    "nome": "Érica",
+                    "nota": 5,
+                    "comentário": "É muito fofa, porém achei muito pequena! Achei que era maior."
                 }
             ],
            "material": "Poliéster",

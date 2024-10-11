@@ -1,26 +1,35 @@
-body {
-    display: inline;
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 10% 5% 10% 5%; */
+    justify-content: center;
+    gap: 1rem;
 }
 
-.produto{
-    background-color: rgb(137, 85, 57);
+.produto {
     display: flex;
+    background-color: rgb(137, 85, 57);
     flex-direction: column;
-    width: 15rem;
-    height: 15rem;
+    width: 25rem;
+    height: 25rem;
     border-radius: 5%;
     align-items: center;
+    margin: 10% 0% 0% 0%;
 }
 
-img {
-    margin: 0 auto;
+.produto img {
+    margin: 10% 10% 0% 10%;
     width: auto;
     height: 65%;
+    border-radius: 5%;
 }
 
 p {
     color: #F5D1A6;
+    font-size: xx-large;
+    margin: 5%;
 }
-a{
+
+a {
     text-decoration: none;
 }
