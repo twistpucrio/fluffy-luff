@@ -1,120 +1,131 @@
 {
-    "produtos":
-    [
-        {
-            "nome": "Água Viva",
-            "preço": 25.00,
-            "descricao": "",
-            "categoria": "aquático",
-            "avaliacoes": [
-                {
-                    "nome": "Judy",
-                    "nota": 4.5,
-                    "comentário": "majestosa demais!"
-                },
-                {
-                    "nome": "Hanna",
-                    "nota": 4,
-                    "comentário": "Gostei muito! Bem macio. :)"
-                }
-            ],
-           "material": "Algodão",
-           "estoque": 45,
-           "caminho": "../img/agua-viva.webp",
-           "imagem": ""
-        },
-        {
-            "nome": "Arara",
-            "preço": 55.00,
-            "descricao": "",
-            "categoria": "voador",
-            "avaliacoes": [
-                {
-                    "nome": "Bruno",
-                    "nota": 5,
-                    "comentário": "Muito bela!"
-                },
-                {
-                    "nome": "Tiago",
-                    "nota": 4.5,
-                    "comentário": "Parece muito o Blue."
-                }
-            ],
-           "material": "Algodão",
-           "estoque": 11,
-           "caminho": "../img/arara.avif",
-           "imagem": ""
-        },
-        {
-            "nome": "Baleia de crochê",
-            "preço": 15.00,
-            "descricao": "",
-            "categoria": "aquático",
-            "avaliacoes": [
-                {
-                    "nome": "Breno",
-                    "nota": 4,
-                    "comentário": "Muito fofinho!"
-                },
-                {
-                    "nome": "Eduardo",
-                    "nota": 5,
-                    "comentário": "Muito bem feita!"
-                }
-            ],
-           "material": "Poliéster",
-           "estoque": 22,
-           "caminho": "../img/baleia-croche.jpg",
-           "imagem": ""
-        },
-        {
-            "nome": "Baleia",
-            "preço": 60.00,
-            "descricao": "",
-            "categoria": "aquático",
-            "avaliacoes": [
-                {
-                    "nome": "Fluffy",
-                    "nota": 5,
-                    "comentário": "Baleia :)"
-                },
-                {
-                    "nome": "Luffy",
-                    "nota": 5,
-                    "comentário": "Jubarte"
-                }
-            ],
-           "material": "Algodão",
-           "estoque": 100,
-           "caminho": "../img/baleia.webp",
-           "imagem": ""
-        },
-        {
-            "nome": "Banguela",
-            "preço": 300.00,
-            "descricao": "",
-            "categoria": "outros",
-            "avaliacoes": [
-                {
-                    "nome": "Soluço",
-                    "nota": 5,
-                    "comentário": "O meu dragãozinho!!"
-                },
-                {
-                    "nome": "Astrid",
-                    "nota": 4,
-                    "comentário": "Parece o de verdade."
-                }
-            ],
-           "material": "Poliéster",
-           "estoque": 1,
-           "caminho": "../img/banguela.jpeg",
-           "imagem": ""
-        },
+    "produtos": [
+      {
+        "nome": "Água Viva",
+        "preço": 25.00,
+        "descricao": "Produto aquático, feito de algodão, representa uma água viva em tom claro e macio.",
+        "categoria": "aquático",
+        "avaliacoes": [
+          {
+            "nome": "Judy",
+            "nota": 4.5,
+            "comentário": "majestosa demais!"
+          },
+          {
+            "nome": "Hanna",
+            "nota": 4,
+            "comentário": "Gostei muito! Bem macio. :)"
+          }
+        ],
+        "material": "Algodão",
+        "estoque": 45,
+        "caminho": "../img/agua-viva.webp",
+        "imagem": {
+          "aria-labelledby": "produto1-nome",
+          "alt": "Pelúcia representando uma água-viva, feita de algodão macio com tentáculos leves e tons claros, simulando o aspecto fluido e delicado do animal marinho."
+        }
+      },
+      {
+        "nome": "Arara",
+        "preço": 55.00,
+        "descricao": "Produto em forma de arara feito de algodão, com detalhes em cores vibrantes, semelhante a uma arara azul.",
+        "categoria": "voador",
+        "avaliacoes": [
+          {
+            "nome": "Bruno",
+            "nota": 5,
+            "comentário": "Muito bela!"
+          },
+          {
+            "nome": "Tiago",
+            "nota": 4.5,
+            "comentário": "Parece muito o Blue."
+          }
+        ],
+        "material": "Algodão",
+        "estoque": 11,
+        "caminho": "../img/arara.avif",
+        "imagem": {
+          "aria-labelledby": "produto2-nome",
+          "alt": "Pelúcia de uma arara azul com penas detalhadas e cores vibrantes, feita de algodão. Ideal para quem aprecia aves exóticas."
+        }
+      },
+      {
+        "nome": "Baleia de crochê",
+        "preço": 15.00,
+        "descricao": "Produto fofo em crochê no formato de uma baleia, feito de poliéster, com detalhes costurados.",
+        "categoria": "aquático",
+        "avaliacoes": [
+          {
+            "nome": "Breno",
+            "nota": 4,
+            "comentário": "Muito fofinho!"
+          },
+          {
+            "nome": "Eduardo",
+            "nota": 5,
+            "comentário": "Muito bem feita!"
+          }
+        ],
+        "material": "Poliéster",
+        "estoque": 22,
+        "caminho": "../img/baleia-croche.jpg",
+        "imagem": {
+          "aria-labelledby": "produto3-nome",
+          "alt": "Pequena baleia de crochê feita à mão, com detalhes costurados e um acabamento suave de poliéster. Fofa e perfeita para decoração."
+        }
+      },
+      {
+        "nome": "Baleia",
+        "preço": 60.00,
+        "descricao": "Produto aquático em formato de baleia, feito de algodão com cores suaves.",
+        "categoria": "aquático",
+        "avaliacoes": [
+          {
+            "nome": "Fluffy",
+            "nota": 5,
+            "comentário": "Baleia :)"
+          },
+          {
+            "nome": "Luffy",
+            "nota": 5,
+            "comentário": "Jubarte"
+          }
+        ],
+        "material": "Algodão",
+        "estoque": 100,
+        "caminho": "../img/baleia.webp",
+        "imagem": {
+          "aria-labelledby": "produto4-nome",
+          "alt": "Pelúcia de baleia em tons suaves, feita de algodão macio, com design simples e delicado que transmite a calma dos oceanos."
+        }
+      },
+      {
+        "nome": "Banguela",
+        "preço": 300.00,
+        "descricao": "Pelúcia do famoso dragão Banguela, feita de poliéster macio. Com detalhes encantadores e expressão amigável, é perfeita para abraços e colecionadores. Ideal para fãs da saga 'Como Treinar o Seu Dragão'.",
+        "categoria": "outros",
+        "avaliacoes": [
+          {
+            "nome": "Soluço",
+            "nota": 5,
+            "comentário": "O meu dragãozinho!!"
+          },
+          {
+            "nome": "Astrid",
+            "nota": 4,
+            "comentário": "Parece o de verdade."
+          }
+        ],
+        "material": "Poliéster",
+        "estoque": 1,
+        "caminho": "../img/banguela.jpeg",
+        "imagem": "Banguela, o icônico dragão da série 'Como Treinar o Seu Dragão', agora em forma de pelúcia! Este adorável dragão é feito de poliéster de alta qualidade, garantindo um toque macio e confortável. Com detalhes minuciosos, como suas escamas negras e olhos verdes brilhantes, ele captura a essência do personagem de maneira encantadora. Seus grandes olhos expressivos e a expressão amigável fazem dele o companheiro perfeito para crianças e adultos. Com dimensões generosas, ele é ideal para abraços e exibições. Este produto não é apenas um brinquedo, mas uma peça de coleção para todos os fãs da saga. Um presente maravilhoso para quem ama a fantasia e a aventura!"
+      },  
         {
             "nome": "Beluga",
             "preço": 10.00,
-            "descricao": "",
+            "descricao": "Pelúcia de beluga feita de algodão macio, com detalhes adoráveis e um sorriso encantador. Ideal para abraços e decoração.",
             "categoria": "aquático",
             "avaliacoes": [
                 {
@@ -131,12 +142,12 @@
            "material": "Algodão",
            "estoque": 50,
            "caminho": "../img/beluga.webp",
-           "imagem": ""
+           "imagem": "Pelúcia em formato de beluga, feita de algodão macio, com uma textura suave e cores claras. Com detalhes adoráveis e um sorriso encantador, é perfeita para abraçar e decorar ambientes infantis. Um item adorável para amantes do oceano!"
         },
         {
             "nome": "Bem te vi",
             "preço": 500.00,
-            "descricao": "",
+            "descricao": "Brinquedo em formato de Bem-te-vi, feito de poliéster macio, com cores vibrantes e uma expressão simpática. Ideal para crianças e amantes da natureza, é leve e durável, perfeito para brincadeiras e decoração.",
             "categoria": "voador",
             "avaliacoes": [
                 {
@@ -148,7 +159,7 @@
            "material": "Lã",
            "estoque": 10,
            "caminho": "../img/bem-te-vi.webp",
-           "imagem": ""
+           "imagem": "Este encantador brinquedo em formato de Bem-te-vi é confeccionado em poliéster macio, com um design vibrante que captura a essência alegre desta ave brasileira. Com um corpo amarelo luminoso e detalhes em preto, o brinquedo apresenta uma expressão amigável que irradia simpatia. Perfeito para crianças e amantes da natureza, o Bem-te-vi é leve e fácil de abraçar, proporcionando conforto e diversão. Além disso, suas costuras reforçadas garantem durabilidade, tornando-o um excelente companheiro para brincadeiras e aventuras. Ideal como decoração temática ou como presente para quem adora aves."
         },
         {
             "nome": "Braquiossauro",
@@ -192,162 +203,162 @@
         {
             "nome": "Cavalo de Crochê",
             "preço": 60.00,
-            "descricao": "",
+            "descricao": "Um cavalo de pelúcia realista feito de poliéster. Possui uma crina longa e macia, pernas robustas e detalhes precisos no rosto, o que dá um aspecto natural. Suas cores neutras lembram os cavalos selvagens, tornando-o perfeito para decoração ou como brinquedo.",
             "categoria": "terrestre",
             "avaliacoes": [
-                {
-                    "nome": "Spirit",
-                    "nota": 5,
-                    "comentário": "Parece comigo!"
-                },
-                {
-                    "nome": "Steve",
-                    "nota": 4,
-                    "comentário": "Parece um cavalo daqui do minecraft."
-                },
-                {
-                    "nome": "Cavalo do Minecraft",
-                    "nota": 4.5,
-                    "comentário": "Sou eu."
-                }
+              {
+                "nome": "Spirit",
+                "nota": 5,
+                "comentário": "Parece comigo!"
+              },
+              {
+                "nome": "Steve",
+                "nota": 4,
+                "comentário": "Parece um cavalo daqui do minecraft."
+              },
+              {
+                "nome": "Cavalo do Minecraft",
+                "nota": 4.5,
+                "comentário": "Sou eu."
+              }
             ],
-           "material": "Poliéster",
-           "estoque": 52,
-           "caminho": "../img/cavalo-croche.jpg",
-           "imagem": ""
-        },
-        {
+            "material": "Poliéster",
+            "estoque": 52,
+            "caminho": "../img/cavalo-croche.jpg",
+            "imagem": "Este encantador cavalo de crochê é feito de poliéster e apresenta uma textura suave ao toque. Com um design delicado, suas crinas e cauda são trançadas, proporcionando um aspecto realista. O corpo do cavalo é robusto, e as patas são firmes, garantindo estabilidade. Ideal para crianças que amam brinquedos fofos ou para colecionadores que apreciam a arte do crochê. Um adorável item que traz aconchego e charme a qualquer ambiente."
+          },
+          {
             "nome": "Cavalo",
             "preço": 65.00,
-            "descricao": "",
+            "descricao": "Uma pelúcia grande em formato de cogumelo, feita de algodão, com uma textura ultra macia. A base é branca e a cabeça vermelha com manchas brancas grandes. Tem uma expressão fofa desenhada em seu rosto, o que o torna ideal tanto como brinquedo quanto item decorativo.",
             "categoria": "terrestre",
             "avaliacoes": [
-                {
-                    "nome": "Spirit",
-                    "nota": 4,
-                    "comentário": "Parece comigo de novo!"
-                },
-                {
-                    "nome": "Érica",
-                    "nota": 4.5,
-                    "comentário": "Vacalo."
-                }
+              {
+                "nome": "Spirit",
+                "nota": 4,
+                "comentário": "Parece comigo de novo!"
+              },
+              {
+                "nome": "Érica",
+                "nota": 4.5,
+                "comentário": "Vacalo."
+              }
             ],
-           "material": "Poliéster",
-           "estoque": 2,
-           "caminho": "../img/cavalo.jpg",
-           "imagem": ""
-        },
-        {
+            "material": "Poliéster",
+            "estoque": 2,
+            "caminho": "../img/cavalo.jpg",
+            "imagem": "Esta pelúcia de cavalo é uma obra de arte em poliéster, destacando-se pelos detalhes realistas. Com uma crina longa e macia, o cavalo exibe uma paleta de cores naturais que imita a beleza dos cavalos selvagens. Suas pernas robustas e a expressão amigável no rosto conferem uma aparência autêntica. É um brinquedo perfeito para crianças e também uma excelente peça decorativa para amantes de cavalos."
+          },
+          {
             "nome": "Cogumelo de Crochê",
             "preço": 30.00,
-            "descricao": "",
+            "descricao": "Uma pelúcia grande de cogumelo, feita de algodão, com uma textura ultra macia. A base é branca e a cabeça vermelha com manchas brancas grandes. Tem uma expressão fofa desenhada em seu rosto, o que o torna ideal tanto como brinquedo quanto item decorativo.",
             "categoria": "outros",
             "avaliacoes": [
-                {
-                    "nome": "Toad",
-                    "nota": 4.5,
-                    "comentário": "Parece comigo!"
-                }
+              {
+                "nome": "Toad",
+                "nota": 4.5,
+                "comentário": "Parece comigo!"
+              }
             ],
-           "material": "Poliéster",
-           "estoque": 44,
-           "caminho": "../img/cogumelo-croche.jpeg",
-           "imagem": ""
-        },
-        {
+            "material": "Poliéster",
+            "estoque": 44,
+            "caminho": "../img/cogumelo-croche.jpeg",
+            "imagem": "Este adorável cogumelo de crochê é feito de poliéster, com uma base bege e uma cabeça vermelha salpicada de pontinhos brancos. A textura artesanal e o design caprichoso fazem dele um item perfeito para decoração de ambientes. É leve, macio e traz um toque rústico e acolhedor a qualquer espaço. Ideal para fãs de produtos feitos à mão e quem ama um estilo vintage."
+          },
+          {
             "nome": "Cogumelo",
             "preço": 70.00,
-            "descricao": "",
+            "descricao": "Cogumelo de pelúcia macio e adorável, com cabeça vermelha e manchas brancas. Perfeito para decoração e abraços!",
             "categoria": "outros",
             "avaliacoes": [
-                {
-                    "nome": "Aquele Cara",
-                    "nota": 5,
-                    "comentário": "Muito fofinho e macio!"
-                },
-                {
-                    "nome": "Outro cara",
-                    "nota": 4,
-                    "comentário": "Amo a carinha dele."
-                },
-                {
-                    "nome": "Mais um cara",
-                    "nota": 3,
-                    "comentário": "Parece um squishmallow."
-                }
+              {
+                "nome": "Aquele Cara",
+                "nota": 5,
+                "comentário": "Muito fofinho e macio!"
+              },
+              {
+                "nome": "Outro cara",
+                "nota": 4,
+                "comentário": "Amo a carinha dele."
+              },
+              {
+                "nome": "Mais um cara",
+                "nota": 3,
+                "comentário": "Parece um squishmallow."
+              }
             ],
-           "material": "Algodão",
-           "estoque": 33,
-           "caminho": "../img/cogumelo.jpg",
-           "imagem": ""
-        },
-        {
+            "material": "Algodão",
+            "estoque": 33,
+            "caminho": "../img/cogumelo.jpg",
+            "imagem": "Esta pelúcia grande de cogumelo é feita de algodão, com uma cabeçona vermelha e manchas brancas que conferem um ar divertido e lúdico. A base branca e a expressão fofa desenhada em seu rosto fazem dele um brinquedo adorável para crianças ou um item decorativo único. É ultra macio, perfeito para abraços e ideal para criar um ambiente aconchegante."
+          },
+          {
             "nome": "Dragão",
             "preço": 500.00,
-            "descricao": "",
+            "descricao": "Uma pelúcia imponente de dragão feita de poliéster. O dragão é grande, com escamas texturizadas, asas detalhadas e uma cauda longa. Seus olhos são brilhantes, e a expressão no rosto reflete sua natureza mítica e poderosa. Ideal para colecionadores ou fãs de criaturas fantásticas.",
             "categoria": "outros",
             "avaliacoes": [
-                {
-                    "nome": "Foguinho",
-                    "nota": 5,
-                    "comentário": "Parece comigo!"
-                },
-                {
-                    "nome": "Banguela",
-                    "nota": 4,
-                    "comentário": "Dragão."
-                }
+              {
+                "nome": "Foguinho",
+                "nota": 5,
+                "comentário": "Parece comigo!"
+              },
+              {
+                "nome": "Banguela",
+                "nota": 4,
+                "comentário": "Dragão."
+              }
             ],
-           "material": "Poliéster",
-           "estoque": 3,
-           "caminho": "../img/dragao.jpg",
-           "imagem": ""
-        },
-        {
-            "nome": "Finn Encaroçado",
-            "preço": 110.00,
-            "descricao": "",
-            "categoria": "outros",
-            "avaliacoes": [
-                {
+            "material": "Poliéster",
+            "estoque": 3,
+            "caminho": "../img/dragao.jpg",
+            "imagem": "Esta impressionante pelúcia de dragão é feita de poliéster, projetada para capturar a essência mítica dessas criaturas fantásticas. Com um corpo grande, escamas texturizadas e asas detalhadas, é perfeita para fãs de histórias de dragões. Seus olhos brilhantes e expressão poderosa fazem deste dragão um excelente item de coleção ou brinquedo, trazendo a magia da fantasia para a vida real."
+          },
+              {
+                "nome": "Finn Encaroçado",
+                "preço": 110.00,
+                "descricao": "Pelúcia do personagem Finn com caroços espalhados pelo corpo, feita de poliéster.",
+                "categoria": "outros",
+                "avaliacoes": [
+                  {
                     "nome": "Jake",
                     "nota": 3,
                     "comentário": "Ele tava muito chato assim..."
-                },
-                {
+                  },
+                  {
                     "nome": "Princesa Caroço",
                     "nota": 5,
                     "comentário": "Amei ele assim. Arrasou!"
-                }
-            ],
-           "material": "Poliéster",
-           "estoque": 1,
-           "caminho": "../img/finn-encarocado.avif",
-           "imagem": ""
-        },
-        {
-            "nome": "Gary",
-            "preço": 160.00,
-            "descricao": "",
-            "categoria": "aquático",
-            "avaliacoes": [
-                {
+                  }
+                ],
+                "material": "Poliéster",
+                "estoque": 1,
+                "caminho": "../img/finn-encarocado.avif",
+                "imagem": "Uma versão cômica do personagem Finn em pelúcia, feita de poliéster, apresentando caroços espalhados por todo o corpo. A pelúcia é macia, com um toque de humor e detalhes fiéis ao personagem. Ótimo para fãs de séries animadas."
+              },
+              {
+                "nome": "Gary",
+                "preço": 160.00,
+                "descricao": "Pelúcia do caracol Gary, com concha colorida em tons pastel e olhos expressivos. Feito de algodão.",
+                "categoria": "aquático",
+                "avaliacoes": [
+                  {
                     "nome": "Bob Esponja",
                     "nota": 5,
                     "comentário": "Meu gary!"
-                },
-                {
+                  },
+                  {
                     "nome": "Gary",
                     "nota": 4,
                     "comentário": "Meow!"
-                }
-            ],
-           "material": "Algodão",
-           "estoque": 4,
-           "caminho": "../img/gary.avif",
-           "imagem": ""
-        },
+                  }
+                ],
+                "material": "Algodão",
+                "estoque": 4,
+                "caminho": "../img/gary.avif",
+                "imagem": "Caracol de pelúcia inspirado no famoso personagem Gary, de uma série animada, feito de algodão. Sua concha é colorida, com listras em tons pastel, e seus olhos são expressivos. O material é macio ao toque, e a pelúcia é ideal tanto para brincar quanto para colecionar."
+              },          
         {
             "nome": "Leão",
             "preço": 70.00,
@@ -985,3 +996,4 @@
         }
     ]
 }
+
