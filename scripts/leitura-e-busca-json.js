@@ -12,6 +12,15 @@ function criaArrayProdutos() {
 
 }
 
+function criaArrayCarrinho() {
+    return fetch("../jsons/carrinho.json")
+        .then(response => response.json())
+        .then(Produtos => {
+            return Produtos.produtos; 
+        })
+
+}
+
 async function buscaPorId(id) {
     const produtos = await criaArrayProdutos();
     return produtos[id];
