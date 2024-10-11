@@ -13,7 +13,7 @@
 }
 
 #img-produto{
-    width: 65%;
+    width: 35rem;
     height: 35rem;
     border-radius: 5% ;
     background-color: rgb(137, 85, 57);
@@ -40,4 +40,40 @@
     font-size: 3.2rem;
     text-wrap: nowrap;
     font-family: 'jomhuria';
+}
+#dados-produtos{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 4.8rem 3.6rem;
+    gap: 3rem;
+
+}
+.dados-produto{
+    width: 70%;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: start;
+    background-color: rgb(137, 85, 57);
+    
+}
+
+
+p{
+    color: #F5D1A6;
+    margin: 0;
+    height: auto;
+    font-size: 3.5rem;
+}
+
+
+#nome-produto{
+    font-size: 4.5rem;
+    color: rgb(137, 85, 57);
+    margin: 0;
+
+    
 }
