@@ -1,1 +1,25 @@
-[]
+{
+"produtos":
+    [
+        {
+            "nome": "Água Viva",
+            "preço": 25.00,
+            "descricao": "",
+            "categoria": "aquático",
+            "avaliacoes": [
+                {
+                    "nome": "Judy",
+                    "nota": 4.5,
+                    "comentário": "majestosa demais!"
+                },
+                {
+                    "nome": "Hanna",
+                    "nota": 4,
+                    "comentário": "Gostei muito! Bem macio. :)"
+                }
+            ],
+           "material": "Algodão",
+           "estoque": 45,
+           "caminho": "../img/agua-viva.webp",
+           "imagem": ""
+        }]}

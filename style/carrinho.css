@@ -93,27 +93,32 @@ footer {
 /*=======================================
 Botões carrinho:*/
 
-.nomeProduto{
-    font-size: xx-large;
-    color: #F5D1A6;
-}
-.preco{
-    font-size: xx-large;
-    color: #F5D1A6;
-}
 
 #quantidadeInput{
     width: 3rem;
     text-align: center;
     color: #F5D1A6;
 }
+.produto {
+    display: flex;                /* Coloca todos os itens em uma linha */
+    text-align:center;
+    align-items: center;          /* Centraliza verticalmente os itens */
+    background-color: rgb(137, 85, 57);    /* Cor de fundo similar ao da imagem */
+    padding: 2%;                /* Espaçamento interno */
+    border-radius: 0%;          /* Bordas arredondadas */
+    margin-bottom: 5%;          /* Espaçamento entre os produtos */
+}
 
-.produto{
-    background-color:rgb(137, 85, 57) ;
-    padding: 2rem;
-    display: flex;
-    align-items: center; 
-    gap: 20px; 
+.produto img {
+    max-width: 15%;         /* Define um tamanho máximo para a imagem */
+    margin-right: 2%;       /* Espaçamento entre a imagem e o texto */
+}
+
+.produto p {
+  
+    font-size: xx-large;          /* Tamanho do texto */
+    color: black;              /* Cor do texto */
+    margin: 0;                /* Remove a margem padrão dos parágrafos */
 }
 
 
