@@ -1,4 +1,4 @@
-async function criaElemento() {
+async function criaElemento() { /*cria elemento na página principal, produtos*/
     try {
         let array = await criaArrayProdutos(); // Aguarda a promessa ser resolvida
         let mein = document.getElementById("main");
