@@ -31,25 +31,25 @@ async function criaProduto(i) { /*cria produto na página de produto*/
 
         //adicionando nome
         let nome = document.getElementById("nome-produto");
-        nome.innerHTML = `${array[i].nome}`;
+        nome.innerHTML = `<p>${array[i].nome}</p>`;
         
         //adicionando preço
         let preco = document.getElementById("preco-produto");
-        preco.innerHTML = `Preço: R$ ${array[i].preço},00`; //Ver se a ç vai alterar o código ou causar erros !!!
+        preco.innerHTML = `<p>Preço: R$ ${array[i].preço},00</p>`; //Ver se a ç vai alterar o código ou causar erros !!!
         
         //adicionando descrição
         let descricao = document.getElementById("descricao-produto");
-        descricao.innerHTML = `Descrição: ${array[i].descricao}`;
+        descricao.innerHTML = `<p>Descrição: ${array[i].descricao}</p>`;
         
         //adicionando avaliação
         let avaliacao = document.getElementById("avaliacao-produto");
         let media_avaliacao = await media_avaliacoes(i);
-        avaliacao.innerHTML = `Avaliação: ${media_avaliacao}`;
+        avaliacao.innerHTML = `<p>Avaliação: ${media_avaliacao}</p>`;
 
         //adicionando comentários
         let comentarios = document.getElementById("comentarios-produto");
         let todos_comentarios = await get_comentarios(i);
-        comentarios.innerHTML = `Comentários: ${todos_comentarios}`;
+        comentarios.innerHTML = `<p>Comentários: ${todos_comentarios}</p>`;
 
     } catch (error) {
         console.error("Erro ao preencher dados do produto no HTML:", error);
