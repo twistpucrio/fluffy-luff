@@ -1,3 +1,35 @@
-.produto{
-    background-color: aqua;
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 10% 5% 10% 5%; */
+    justify-content: center;
+    gap: 1rem;
+}
+
+.produto {
+    display: flex;
+    background-color: rgb(137, 85, 57);
+    flex-direction: column;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 5%;
+    align-items: center;
+    margin: 10% 0% 0% 0%;
+}
+
+.produto img {
+    margin: 10% 10% 0% 10%;
+    width: auto;
+    height: 65%;
+    border-radius: 5%;
+}
+
+p {
+    color: #F5D1A6;
+    font-size: xx-large;
+    margin: 5%;
+}
+
+a {
+    text-decoration: none;
 }
