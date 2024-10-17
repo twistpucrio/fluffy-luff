@@ -70,7 +70,18 @@ p{
 }
 
 
-#nome-produto{
+#img-produto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-produto img{
+    width: 70%;
+    border-radius: 5%;
+    height: 80%;
+}
+#nome-produto p{
     font-size: 4.5rem;
     color: rgb(137, 85, 57);
     margin: 0;
