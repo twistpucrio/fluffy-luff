@@ -1,25 +1,27 @@
 {
 "produtos":
     [
+       
         {
-            "nome": "Água Viva",
-            "preço": 25.00,
-            "descricao": "",
-            "categoria": "aquático",
+            "nome": "Lobo guará",
+            "preço": 200.00,
+            "descricao": "Pelúcia de lobo-guará com corpo marrom, pernas e focinho pretos, e orelhas grandes com interior branco. Material: Poliéster.",
+            "categoria": "terrestre",
             "avaliacoes": [
                 {
-                    "nome": "Judy",
-                    "nota": 4.5,
-                    "comentário": "majestosa demais!"
+                    "nome": "Dulia",
+                    "nota": 5,
+                    "comentário": "muito lindo!"
                 },
                 {
-                    "nome": "Hanna",
-                    "nota": 4,
-                    "comentário": "Gostei muito! Bem macio. :)"
+                    "nome": "Janielle",
+                    "nota": 5,
+                    "comentário": "Muito chique!"
                 }
             ],
-           "material": "Algodão",
-           "estoque": 45,
-           "caminho": "../img/agua-viva.webp",
-           "imagem": ""
-        }]}
+           "material": "Poliéster",
+           "estoque": 5,
+           "caminho": "../img/lobo-guara.png",
+           "imagem": "Um gracioso lobo-guará de pelúcia. Ele tem o corpo coberto por uma pelagem marrom clarinha e macia, enquanto suas pernas e focinho são de um preto contrastante. As orelhas são grandes e fofas, com o interior branco, o que o torna ainda mais adorável. Seus olhos pequenos e amarelos parecem atentos, como se estivesse explorando o ambiente ao seu redor. Ele está sobre uma grama verde, que destaca ainda mais suas cores, parecendo pronto para uma nova aventura!"
+       }
+        ]}

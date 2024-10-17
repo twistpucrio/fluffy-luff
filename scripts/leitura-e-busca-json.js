@@ -53,6 +53,7 @@ function buscaPorCategoria(array) {
 
     for (let produto of array) {
         if(inputTexto.includes(produto.categoria.toLowerCase())){
+            
            // vamos adicionar os elementos hmls achados na pagina aqui
         }
     }
