@@ -121,5 +121,25 @@ Botões carrinho:*/
     margin: 0;                /* Remove a margem padrão dos parágrafos */
 }
 
+.finalizar {
+    display: flex;
+    justify-content: center;  /* Alinha o botão horizontalmente */
+    align-items: center;      /* Alinha o botão verticalmente */
 
-/*=======================================*/
+}
+
+#btnFinalizar{
+        background-color: rgb(137, 85, 57); 
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        
+      }
+
