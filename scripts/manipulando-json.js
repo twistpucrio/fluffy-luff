@@ -1,69 +1,59 @@
-//CRUD do json (adição de produtos no carrinho e no favoritos, remoção de produtos no carrinho e no favoritos)
+async function adicionarAoCarrinho(id) {
+    let carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
+    const produto = await buscaPorId(id); // Função que busca o produto pelo nome
 
-function  quantidade_elementos(lista){ //função para contar elementos de uma lista (exemplo: carrinho, produtos e favoritos).
-    let qtd = 0;
-    for (let elemento of lista) {
-        qtd ++;
+    const produtoExistente = carrinho.find(item => item.nome === produto.nome);
+    
+    if (produtoExistente) {
+        produtoExistente.quantidade += 1;
+    } else {
+        carrinho.push({ nome: produto.nome, quantidade: 1 }); 
     }
-    return qtd;
+
+    localStorage.setItem('carrinho', JSON.stringify(carrinho));
 }
 
-const fs = require('fs');
 
-//função para carregar o JSON de um arquivo
-function carregarJSON(caminho) {
-    return JSON.parse(fs.readFileSync(caminho, 'utf8'));
+async function adicionarAosFavoritos(id) {
+    let favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
+    const produto = await buscaPorId(id);
+    const produtoFavorito = favoritos.find(item => item.nome === produto.nome);
+    
+    if (!produtoFavorito) {
+        favoritos.push(produto);
+    }
+
+    localStorage.setItem('favoritos', JSON.stringify(favoritos));
 }
 
-//função para salvar o JSON em um arquivo
-function salvarJSON(caminho, data) {
-    fs.writeFileSync(caminho, JSON.stringify(data, null, 2), 'utf8');
-}
+window.addEventListener("load", function(){
+    addFavoritos = document.getElementById("add-favoritos");
+    addCarrinho = document.getElementById("add-carrinho");
 
-//função para adicionar produto a uma lista (exemplo: carrinho, produtos e favoritos).
-function adicionar_elemento(produto) {
-    const produtos = carregarJSON('produtos.json'); //carrega produtos
-    let carrinho = carregarJSON('carrinho.json');   //carrega o carrinho
-
-    //busca o produto pelo nome
-    const produto = produtos.produtos.find(p => p.nome === produto);
-
-    if (produto) {
-        //verifica se o produto já está no carrinho
-        const produtoNoCarrinho = carrinho.find(p => p.nome === produto);
+    addFavoritos.addEventListener("click", function(){
+        const id = new URL(window.location.href).searchParams.get('id'); 
         
-        if (produtoNoCarrinho) {
-            produtoNoCarrinho.quantidade += 1; //aumenta a quantidade se já existir no carrinho
-        } else {
-            //adiciona o produto ao carrinho com quantidade 1
-            carrinho.push({ ...produto, quantidade: 1 });
-        }
+        
+        
+        adicionarAosFavoritos(id);
+        console.log(obterFavoritos());
+        
+    });
+    addCarrinho.addEventListener("click", async function(){
+        const id = new URL(window.location.href).searchParams.get('id'); 
+        
+        
+        
+        adicionarAoCarrinho(id);
+        console.log(obterCarrinho());
+        
+    });
+});
 
-        salvarJSON('carrinho.json', carrinho); //salva o carrinho atualizado
-        console.log(`Produto ${produto} adicionado ao carrinho.`);
-    } else {
-        console.log(`Produto ${produto} não encontrado.`);
-    }
+function obterCarrinho() {
+    return JSON.parse(localStorage.getItem('carrinho')) || [];
 }
 
-//função para remover produto de uma lista (exemplo: carrinho, produtos e favoritos).
-function remover_elemento(produto) {
-    let carrinho = carregarJSON('carrinho.json');
-
-    //filtra o produto do carrinho
-    const novoCarrinho = carrinho.filter(p => p.nome !== produto);
-
-    if (novoCarrinho.length !== carrinho.length) {
-        salvarJSON('carrinho.json', novoCarrinho); // Salva o carrinho atualizado
-        console.log(`Produto ${produto} removido do carrinho.`);
-    } else {
-        console.log(`Produto ${produto} não encontrado no carrinho.`);
-    }
-}
-
-//função para visualizar o carrinho
-function visualizar_lista() {
-    const carrinho = carregarJSON('carrinho.json');
-    console.log('Carrinho de compras:', carrinho);
-    return carrinho;
+function obterFavoritos() {
+    return JSON.parse(localStorage.getItem('favoritos')) || [];
 }
