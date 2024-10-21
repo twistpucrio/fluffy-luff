@@ -10,7 +10,6 @@
     <script src="/scripts/busca-resultado.js"></script>
     <script src="../scripts/leitura-e-busca-json.js"></script>
 
-    
 
 </head>
 <body>
@@ -19,7 +18,18 @@
             <img id="logo" src="/img/fluffy-luff.png" alt="logo fluffy luffy.">
             <nav id="menu">
             <a href="/htmls/index.html">Voltar</a>
-                <a href="#">Categoria</a>
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn" id="categoria" aria-label="Clique aqui para obter o pop-up de categorias de
+                    produtos do nosso site.">Categorias</a>
+                    <div class="dropdown-content">
+                        <a href="#">Terrestre</a>
+                        <a href="#">Aquático</a>
+                        <a href="#">Voador</a>
+                        <a href="#">Outros</a>
+                    </div>
+                </li>
+            </ul>
                     <input type="text" name="texto" id="texto" placeholder="Pesquisar em Fluffy Luff"></input>
                 <a href="/htmls/favoritos.html">Favoritos</a>
                 <a href="/htmls/carrinho-de-compras.html">Carrinho</a>
