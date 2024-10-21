@@ -121,52 +121,26 @@ Botões carrinho:*/
     margin: 0;                /* Remove a margem padrão dos parágrafos */
 }
 
+.finalizar {
+    display: flex;
+    justify-content: center;  /* Alinha o botão horizontalmente */
+    align-items: center;      /* Alinha o botão verticalmente */
 
-/*=======================================*/
-
-
-#categoria{
-    position: relative;
-    top:-1.7dvh;
-    right: 2dvh;
 }
 
-#texto{
-    position: relative;
-    right: 1dvh;
-    height: 10.5%;
-}
+#btnFinalizar{
+        background-color: rgb(137, 85, 57); 
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        
+      }
 
 
-
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    right: 2vh;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
