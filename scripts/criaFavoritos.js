@@ -1,6 +1,6 @@
-async function criaElemento() { /*cria elemento na página principal, produtos*/
+async function criaElemento() {
     try {
-        let array = await obterFavoritos(); // Aguarda a promessa ser resolvida
+        let array = await obterFavoritos();
         let mein = document.getElementById("main");
         for (let i = 0; i < array.length; i++) {
             try {
