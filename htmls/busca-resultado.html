@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluffy Luff</title>
+    <link rel="shortcut icon" href="../img/fluffy-luff.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/estilo-base.css">
+    <link rel="stylesheet" href="../style/principal.css">
+    <script src="/scripts/busca-resultado.js"></script>
+    <script src="../scripts/leitura-e-busca-json.js"></script>
+
+    
+
+</head>
+<body>
+    <div id="conteudo">
+        <header id="header">
+            <img id="logo" src="/img/fluffy-luff.png" alt="logo fluffy luffy.">
+            <nav id="menu">
+            <a href="/htmls/index.html">Voltar</a>
+                <a href="#">Categoria</a>
+                    <input type="text" name="texto" id="texto" placeholder="Pesquisar em Fluffy Luff"></input>
+                <a href="/htmls/favoritos.html">Favoritos</a>
+                <a href="/htmls/carrinho-de-compras.html">Carrinho</a>
+            </nav>
+        </header>
+        <section id ="main">
+            <div id="filtros">
+                <h3>Filtros</h3>
+                <!-- Filtro por preço -->
+                <div>
+                    <label>Ordenar por preço:</label>
+                    <input type="radio" name="preco" id="maior_preco" value="maior"> Maior para menor
+                    <input type="radio" name="preco" id="menor_preco" value="menor"> Menor para maior
+                </div>
+            
+                <!-- Filtro por avaliação -->
+                <div>
+                    <label>Filtrar por avaliação:</label><br>
+                    <input type="checkbox" name="avaliacao" value="5"> 5 Estrelas<br>
+                    <input type="checkbox" name="avaliacao" value="4"> 4 Estrelas<br>
+                    <input type="checkbox" name="avaliacao" value="3"> 3 Estrelas<br>
+                    <input type="checkbox" name="avaliacao" value="2"> 2 Estrelas<br>
+                    <input type="checkbox" name="avaliacao" value="1"> 1 Estrela
+                </div>
+            
+                <!-- Filtro por material -->
+                <div>
+                    <label>Filtrar por material:</label><br>
+                    <input type="checkbox" name="material" value="Algodão"> Algodão<br>
+                    <input type="checkbox" name="material" value="Poliéster"> Poliéster<br>
+                    <input type="checkbox" name="material" value="Lã"> Lã
+                </div>
+            
+                <!-- Filtro por bioma -->
+                <div>
+                    <label>Filtrar por bioma:</label><br>
+                    <input type="checkbox" name="categoria" value="aquático"> Aquático<br>
+                    <input type="checkbox" name="categoria" value="terrestre"> Terrestre<br>
+                    <input type="checkbox" name="categoria" value="voador"> Voador<br>
+                    <input type="checkbox" name="categoria" value="outros"> Outros <br>
+                    <!-- Adicionar outros biomas -->
+                </div>
+            
+                <button id="aplicar_filtros">Aplicar Filtros</button>
+            </div>
+            
+            <div id="resultados">
+                <!-- Resultados dos produtos filtrados aparecerão aqui -->
+            </div>
+        </section>
+        <script src="/scripts/busca-resultado.js"></script>
+        <footer id="footer">
+            <p>
+            <section id="creditos">
+            Desenvolvido por: Danielle Guimarães, Julia Simão, Mariana Ribeiro e Vitória Carteri.<br/>
+            Projeto TWIST-2024
+            </section>
+            <section id="versao">
+            ©Fluffy Luff<br/>
+            Versão do site: 1.0
+            </section>
+            </p>
+            <a href="https://github.com/twistpucrio/fluffy-luff" target="_blank">
+                <img  id="github" src="../img/github.png" alt="logo do github.">
+            </a>        
+        </footer>
+    </div>
+</body>
+</html>
